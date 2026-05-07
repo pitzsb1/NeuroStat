@@ -48,7 +48,7 @@ Index | Fp1 | F3 | C3 | P3 | F7 | T3 | T5 | O1 | Fz | Cz | Pz | Fp2 | F4 | C4 | 
 | grda_vote | GRDA 투표 수 | 0 | 전문가 투표 수 |
 | other_vote | 기타 라벨 투표 수 | 0 | 전문가 투표 수 |
 
-_filtered spectogream_: 위 19개 채널을 그대로 쓰지 않고, 4개의 영역(LL, LP, RP, RR)으로 묶어 이미지화. 각 영역은 128(주파수) x 256(시간) 크기의 행렬(Matrix) 데이터가 되어 모델의 입력값이 됨.
+filtered spectogream: 위 19개 채널을 그대로 쓰지 않고, 4개의 영역(LL, LP, RP, RR)으로 묶어 이미지화. 각 영역은 128(주파수) x 256(시간) 크기의 행렬(Matrix) 데이터가 되어 모델의 입력값이 됨.
 
 **EEG data(독립 변수 x)**: Fp1/Fp2(전두엽 앞쪽), F3/F4(전두엽), C3/C4(중앙), P3/P4(두정엽), O1/O2(후두엽), T3/T4(측두엽), Fz/Cz/Pz(중앙 라인), EKG(심전도) [총 20개 채널]
 
